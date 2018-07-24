@@ -3,11 +3,11 @@
 #   if divisable by 5 return buzz 
 #     if not divisable by either return nothing 
 if x%3==0 && x%5==0
-  puts fizzbuzz
+  puts "fizzbuzz"
 elsif x%3==0 
-puts fizz
+puts "fizz"
 elsif x%5 == 0
-puts buzz
+puts "buzz"
 else
-  puts NIL
+  puts "NIL"
 end
