@@ -2,12 +2,14 @@
 #   if x is divisible by 3 return fizz
 #   if divisable by 5 return buzz 
 #     if not divisable by either return nothing 
-if x%3==0 && x%5==0
-"fizzbuzz"
-elsif x%3==0 
-"fizz"
-elsif x%5 == 0
-"buzz"
-else
-  "NIL"
+def fizzbuzz("x")
+if x % 3== 0 && x % 5== 0
+  puts "fizzbuzz"
+  
+  elsif x % 3 == 0 
+    puts "fizz"
+  elsif x % 5 == 0
+    puts"buzz"
+  else
+ end
 end
