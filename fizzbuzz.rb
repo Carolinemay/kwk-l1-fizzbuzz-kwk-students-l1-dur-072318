@@ -4,12 +4,12 @@
 #     if not divisable by either return nothing 
 def fizzbuzz(x)
   if x % 3== 0 && x % 5== 0
-  "Fizzbuzz"
+  "FizzBuzz"
   
     elsif x % 3 == 0 
-    "fizz"
+    "Fizz"
     elsif x % 5 == 0
-    "buzz"
+    "Buzz"
   else
  end
 end
