@@ -2,7 +2,7 @@
 #   if x is divisible by 3 return fizz
 #   if divisable by 5 return buzz 
 #     if not divisable by either return nothing 
-def fizzbuzz("x")
+def fizzbuzz(x)
 if x % 3== 0 && x % 5== 0
   "fizzbuzz"
   
